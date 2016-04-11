@@ -1,0 +1,7 @@
+aiguillage:
+  build: .
+  ports:
+    - 80
+  external_links:
+    - cvsoulshakenet_cv_1:cv
+    - blogsoulshakenet_web_1:blog

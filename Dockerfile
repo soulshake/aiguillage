@@ -1,3 +1,2 @@
 FROM nginx
-ADD nginx.conf /etc/nginx.conf
-ADD htpasswd /etc/htpasswd
+COPY nginx.conf /etc/nginx/nginx.conf
