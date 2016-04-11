@@ -1,7 +1,12 @@
 aiguillage:
+  #image: 'soulshake/aiguillage:latest'
   build: .
-  ports:
-    - 80
+  #autoredeploy: true
+  #deployment_strategy: high_availability
   external_links:
-    - cvsoulshakenet_cv_1:cv
-    - blogsoulshakenet_web_1:blog
+    - 'hugo.blog:blog'
+    - 'wopr.cv:cv'
+  ports:
+    - '80:80'
+  #tags:
+  #  - nodecluster-name=soulshake-production
