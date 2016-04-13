@@ -5,7 +5,9 @@ aiguillage:
   links:
     - 'hugo.blog:blog'
     - 'wopr.cv:cv'
+    - 'www'
   ports:
     - '80:80'
   tags:
     - nodecluster-name=soulshake-production
+
