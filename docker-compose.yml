@@ -6,3 +6,4 @@ aiguillage:
     - 'wopr.cv:cv'
   ports:
     - '80:80'
+  # links: www?

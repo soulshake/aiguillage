@@ -10,4 +10,3 @@ aiguillage:
     - '80:80'
   tags:
     - nodecluster-name=soulshake-production
-
